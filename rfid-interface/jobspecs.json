@@ -1,0 +1,40 @@
+{
+  "initiators": [
+    {
+      "type": "runlog",
+      "params": {
+        "address": ""
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "type": "rfid",
+      "confirmations": null,
+      "params": {
+      }
+    },
+    {
+      "type": "copy",
+      "confirmations": null,
+      "params": {
+        "copyPath": "uid"
+      }
+    },
+    {
+      "type": "ethbytes32",
+      "confirmations": null,
+      "params": {
+      }
+    },
+    {
+      "type": "ethtx",
+      "confirmations": null,
+      "params": {
+      }
+    }
+  ],
+  "startAt": null,
+  "endAt": null
+}
+

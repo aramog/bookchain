@@ -1,0 +1,50 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=VT323&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=EB+Garamond&family=Lora:wght@400;500&family=Peddana&family=Roboto+Mono:wght@200&family=Special+Elite&display=swap');
+
+
+* {
+  text-align: center;
+  font-family: 'EB Garamond', serif;
+  color: black;
+}
+
+body {
+  background-image: url('./assets/bg.png');
+  /*background-color: #fcfbf7;*/
+
+}
+
+h1{
+  font-size: 50px;
+}
+
+p {
+  font-weight: 1000;
+  padding: 0.1px;
+}
+
+
+button, p, input{
+  font-size: 32px;
+}
+
+
+button{
+  border: 0px solid gray;
+  background-color: #f0f0dd;
+  color: black;
+  
+}
+
+/*input{
+  border:none;
+  background-color: #282828;
+  border: 1px solid green;
+  color: white;
+}*/
+
+button:hover{
+  box-shadow: 0 0 3px 2px gray;
+  cursor: pointer;
+}
